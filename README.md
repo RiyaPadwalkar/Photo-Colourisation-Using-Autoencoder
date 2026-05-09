@@ -26,4 +26,27 @@ The project demonstrates practical applications of:
 - Convolutional Neural Networks (CNNs)
 - Autoencoders using TensorFlow/Keras
 
+
+## 🖼️ Demo Results
+
+The trained Convolutional Autoencoder successfully predicts realistic RGB outputs from grayscale landscape images.
+
+### Grayscale to Colorized Transformation
+
+<p align="center">
+  <img src="images/grayscale_1.png" width="32%">
+  
+  &nbsp;&nbsp;&nbsp; ➜ &nbsp;&nbsp;&nbsp;
+  
+  <img src="images/colorized_output1.png" width="32%">
+</p>
+
+### Result Explanation
+
+- Left Image → Original grayscale landscape image
+- Right Image → AI-generated colorized output
+
+The model learns textures, spatial structures, and semantic color patterns during training to reconstruct realistic RGB outputs from grayscale inputs.
+
 The system is trained using grayscale input images and corresponding RGB target images to learn semantic color representations automatically.
+ 
