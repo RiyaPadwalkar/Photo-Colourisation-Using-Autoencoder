@@ -27,20 +27,35 @@ The project demonstrates practical applications of:
 - Autoencoders using TensorFlow/Keras
 
 
-## 🖼️ Demo Results
+##  Demo Results
 
 The trained Convolutional Autoencoder successfully predicts realistic RGB outputs from grayscale landscape images.
 
 ### Grayscale to Colorized Transformation
 
-<p align="center">
-  <img src="test/input/img101_grayscale.jpg" width="28%" />
-  
-  <span style="font-size:40px; vertical-align:middle;">➡️</span>
-  
-  <img src="test/output/img101_color.jpg" width="28%" />
-</p>
-### Result Explanation
+<table align="center">
+<tr>
+<td align="center">
+<img src="test/input/img101_grayscale.jpg" width="250"/>
+</td>
+
+<td align="center" width="80">
+<h1>➡️</h1>
+</td>
+
+<td align="center">
+<img src="test/output/img101_color.jpg" width="250"/>
+</td>
+</tr>
+
+<tr>
+<td align="center"><b>Grayscale Input</b></td>
+<td></td>
+<td align="center"><b>Colorized Output</b></td>
+</tr>
+</table>
+
+#### Result Explanation
 
 - Left Image → Original grayscale landscape image
 - Right Image → AI-generated colorized output
