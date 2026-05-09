@@ -34,13 +34,12 @@ The trained Convolutional Autoencoder successfully predicts realistic RGB output
 ### Grayscale to Colorized Transformation
 
 <p align="center">
-  <img src="images/grayscale_1.png" width="32%">
+  <img src="test/input/img101_grayscale.jpg" width="28%" />
   
-  &nbsp;&nbsp;&nbsp; ➜ &nbsp;&nbsp;&nbsp;
+  <span style="font-size:40px; vertical-align:middle;">➡️</span>
   
-  <img src="images/colorized_output1.png" width="32%">
+  <img src="test/output/img101_color.jpg" width="28%" />
 </p>
-
 ### Result Explanation
 
 - Left Image → Original grayscale landscape image
