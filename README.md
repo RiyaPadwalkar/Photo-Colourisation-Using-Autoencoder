@@ -63,4 +63,21 @@ The trained Convolutional Autoencoder successfully predicts realistic RGB output
 The model learns textures, spatial structures, and semantic color patterns during training to reconstruct realistic RGB outputs from grayscale inputs.
 
 The system is trained using grayscale input images and corresponding RGB target images to learn semantic color representations automatically.
- 
+
+ ## 🔄 Workflow Diagram
+
+The project follows a complete Deep Learning-based image colorization workflow.
+
+<p align="center">
+  <img src="workflow.png" width="85%">
+</p>
+
+### Workflow Steps
+
+1. Collect grayscale and RGB landscape image datasets
+2. Resize all images to 120×120 dimensions
+3. Normalize pixel values between 0 and 1
+4. Create paired grayscale-RGB datasets
+5. Train the Convolutional Autoencoder
+6. Generate predictions on unseen grayscale images
+7. Visualize generated RGB outputs
